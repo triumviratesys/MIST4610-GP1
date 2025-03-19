@@ -86,16 +86,15 @@ The Pharmacies entity stores pharmacy details. There is a one to many, non-ident
 
 <img width="466" alt="image" src="https://github.com/user-attachments/assets/849aa4a9-184c-4385-baac-aa813dd44739" />
 
-
 1. Query 1 lists the patient’s first name, last name, and their emergency contact’s name if their blood type is O negative. The results are also listed in descending order based on the patient’s last name.
 
 <img width="349" alt="image" src="https://github.com/user-attachments/assets/e765655d-ee3e-4088-bc75-6d1f1897b19e" />
-Query 1 allows the hospital management system to see which of their patients has an O negative blood type. O negative is considered the “universal donor” as any individual can receive this blood type. People with O negative blood are often sought out to see if they'd be willing to donate their blood, which could potentially save hundreds of others lives.
 
+Query 1 allows the hospital management system to see which of their patients has an O negative blood type. O negative is considered the “universal donor” as any individual can receive this blood type. People with O negative blood are often sought out to see if they'd be willing to donate their blood, which could potentially save hundreds of others lives.
 
 2. Query 2 lists the patient's first and last time and their total outstanding billing amount for bills that are pending or overdue. The results are listed in descending order by the total outstanding billing amount.
 
-   <img width="491" alt="image" src="https://github.com/user-attachments/assets/18562218-1d99-43f9-9488-237ef0ebd1c7" />
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/18562218-1d99-43f9-9488-237ef0ebd1c7" />
    
 Query 2 allows the staff in charge of billings to oversee how much money they are still waiting to receive from the patients in their care. Including both pending and overdue payments, the system can contact these individuals to check in on their payments and keep track of who they are owed money from.
 
@@ -107,17 +106,13 @@ Query 3 allows the billing staff to look over all of the different pharmacies th
 
 4. Query 4 lists out the patient’s first name, last name, ID, appointment reason, and bill for their appointment if it is greater than the average billing amount in the hospital.
 
-
 <img width="514" alt="image" src="https://github.com/user-attachments/assets/a19e8f30-add9-4aed-a95c-28bde17eb6ea" />
 
 Query 4 allows the hospital billing staff to see the patient’s name, their ID number, their appointment reason, and the bill for their appointment if it is greater than the average bill amount for the hospital. This gives a general idea for the staff to see which appointments cost more than the typical average of all appointments within the hospital. This also brings forth important information such as which patients are bringing more than the average revenue from appointments, future budgeting plans, and whether or not resources need to be allocated more.
 
-
 5. Query 5 lists the patients ID, first name, last name, and their phone number if they do not have any allergies, they are not a minor, and they are not taking any medications.
 
-
 <img width="767" alt="image" src="https://github.com/user-attachments/assets/0cb320a6-a2eb-4562-9b0d-d7f589d7f2c8" />
-
 
 Query 5 allows the hospital staff who are in charge of keeping data and improving upon the hospital itself to possibly give patients surveys and record their experiences. In order to get the best results while taking the survey, the patient must not have any allergies, must be older than 18, and not currently taking medication. They then can have a list of patients to ask if they’d be willing to take the survey and use their data to better improve the hospital.
 
@@ -139,16 +134,13 @@ Query 7 allows any shift supervisors to see which staff members work less than 2
 
 Query 8 allows doctors to look through their patients and know which patients are taking more than one medication and the names of those medications. Taking multiple medications at the same time can increase the risk of dangerous side effects occurring, so it is very important for doctors to know what their patients are taking in order to keep their patient safe. It is also helpful in determining if the patient can take more medications based on what they are already taking.
 
-
 9. Query 9 determines the distribution of insurance companies among insured patients in the hospital
 
 <img width="761" alt="image" src="https://github.com/user-attachments/assets/e843edd0-5c20-4261-bf42-0f3e8178286c" />
 
 Query 9 allows the hospital to understand who their top insurance providers are (in terms of patients insured). With this information, the management staff can better optimize the billing system, know the prominent insurance company among patients, and streamline the insurance process by understanding how the prominent insurance companies work. If the providers are in equal proportion, the query also sorts providers alphabetically.
 
-
 10. Query 10 lists the patient’s first name, last name, age, and their diagnosis if they are born after 01/01/1997
-
 
 <img width="439" alt="image" src="https://github.com/user-attachments/assets/24a0dbf0-e385-4e85-99c0-22881b4df0b2" />
 
